@@ -1,7 +1,7 @@
 vim-dezyne
 ===================
 
-This plugin provides the syntax highlight for the Verum Dezyne version 2.0.0 tool for Model-driven development.
+This plugin provides the syntax highlight for [Verum Dezyne](http://dezyne.verum.com/) (version 2.0.0) model files.
 
 ## Installation
 
@@ -35,4 +35,9 @@ Plug 'saro/vim-dezyne'
 - Copy `ftdetect/dezyne.vim` file into your `~/.vim/ftdetect` directory
 - Copy `indent/dezyne.vim` file into your `~/.vim/indent` directory
 
-## TODO
+
+### VIM License
+
+See `:help license` for more information.
+
+
