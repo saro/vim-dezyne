@@ -22,8 +22,8 @@ syn match   dezyneStClass "\v\[otherwise]"
 syn match   dezyneString  "\$.*\$"
 syn region  dezyneIdentifier start="\[" end="\]" oneline contains=dezyneDot
 
-syn match   dezyneComment contains=dezyneTodo "\v//.*$"
-syn region  dezyneComment start="/\*" end="\*/" contains=dezyneTodo
+syn match   dezyneComment contains=dezyneTodo,@Spell "\v//.*$"
+syn region  dezyneComment start="/\*" end="\*/" contains=dezyneTodo,@Spell
 
 hi def link dezyneType        Type
 hi def link dezyneStClass     StorageClass
