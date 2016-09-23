@@ -1,7 +1,7 @@
 vim-dezyne
 ===================
 
-This plugin provides the syntax highlight for [Verum Dezyne](http://dezyne.verum.com/) (version 2.0.0) model files.
+This plugin provides the syntax highlight for [Verum Dezyne](http://dezyne.verum.com/) (version 2.1.0) model files.
 
 ## Installation
 
